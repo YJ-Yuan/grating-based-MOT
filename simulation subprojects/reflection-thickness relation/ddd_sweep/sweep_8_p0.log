@@ -1,0 +1,71 @@
+Ansys Lumerical 2020 R2.4 FDTD Solver Version 8.24.2502 (Mac 64bit)
+ expires (month/day/year): 1/26/2022
+using config file: /Users/lycoris/.config/Lumerical/License.ini
+license host: lumerical-lm.iqc.uwaterloo.ca
+current time: Fri Jun 25 23:48:40 2021
+Running on host: YuandeMacBook-Pro.local
+host available memory (GB): 17.179869
+All processes are communicating and ready to proceed to simulation...
+Running fsp file: /Applications/Lumerical v202.app/Contents/Applications/FDTD Solutions.app/Contents/MacOS/fdtd-engine -t 1 -remote -hide /Users/lycoris/Desktop/test/ddd_sweep/sweep_8.fsp
+number of processors is 12
+processors are distributed as: 6x2x1
+Running 2D Simulation
+Starting meshing
+Simulation size in gridpoints: 68 x 90 x 1
+Refined 0 mesh cells (0%)
+Completed meshing!
+Meshing complete in 0.000851 seconds of CPU time
+0 0
+Starting meshing
+Simulation size in gridpoints: 68 x 90 x 1
+Refined 0 mesh cells (0%)
+Completed meshing!
+Meshing complete in 0.000806 seconds of CPU time
+0 0
+finished material properties
+Selected kernel with optimization level: 2 and split-field propagation direction: 0
+Starting meshing
+Simulation size in gridpoints: 68 x 90 x 1
+Refined 0 mesh cells (0%)
+Completed meshing!
+Meshing complete in 0.000824 seconds of CPU time
+0 0
+Selected kernel with optimization level: 2 and split-field propagation direction: 0
+-----------------------------------------
+Beginning initialization of 2D FDTD Simulation
+  Including TE Simulation
+Starting to add sources to simulation
+
+Adding Gaussian source propagating in Y
+Starting to add boundary conditions to simulation
+Adding parallel BC
+Adding parallel BC
+Adding PML BC
+Adding parallel BC
+Starting to add monitors to Simulation
+Adding analysis monitor
+Adding frequency monitor
+Finished initialization of 2D Simulation
+-----------------------------------------
+All processes are communicating and ready to proceed to simulation...
+Starting 133585 total iterations
+0.0359321% complete. Max time remaining: 43 secs. Auto Shutoff: 1
+1.52113% complete. Max time remaining: 34 secs. Auto Shutoff: 1
+100% complete. Max time remaining: 0 mins, 0 secs. Auto Shutoff: 1.27081e-07
+Early termination of simulation, the autoshutoff criteria are satisfied.
+Completed 2607 iterations, or 3.317657e-14s of Simulation Time
+Process 0 starting to collect data
+    collecting TM monitor data
+    collecting TE monitor data
+    collecting TM source data
+    collecting TE source data
+Finished collecting data
+Simulation completed successfully at: Fri Jun 25 23:48:40 2021
+Overall wall time measurements in seconds: 1.03297
+    time to mesh and initialize: 0.049094
+    time to run FDTD simulation: 0.673393
+    time to checkpoint simulation: 1e-06
+    time to finalize data and save to files: 0.010171
+    miscellaneous time: 0.300293
+    FDTD solver speed on process 0: 23.6932 Mnodes/s
+    total FDTD solver speed on 12 processes: 284.318 Mnodes/s
